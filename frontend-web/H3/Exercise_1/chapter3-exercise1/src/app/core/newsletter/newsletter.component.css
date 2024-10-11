@@ -1,0 +1,13 @@
+.submitPage{
+    width: 100%;
+}
+
+.random-input {
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;     /* Center items inside the div */
+}
+
+.button {
+    margin-top: 10px;
+}
