@@ -1,0 +1,70 @@
+.pokemon {
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 3px;
+    border: 3px solid #ccc;
+    display: block;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .fire {
+    background: #DC143C;
+  }
+  
+  .grass {
+    background: darkseagreen;
+  }
+  
+  .water {
+    background: cornflowerblue;
+  }
+  
+  .bug {
+    background: #729f3f;
+  }
+  
+  .normal {
+    background: #a4acaf;
+  }
+  
+  .poison {
+    background: #b97fc9;
+  }
+  
+  .electric {
+    background: #eed535;
+  }
+  
+  .ground {
+    background: sandybrown;
+  }
+  
+  .fairy {
+    background: lightpink;
+  }
+  
+  .fighting {
+    background: darkred;
+  }
+  
+  .psychic {
+    background: #b97fc9;
+  }
+  
+  .ghost {
+    background: rebeccapurple;
+  }
+  
+  .rock {
+    background: gray;
+  }
+  
+  .selected {
+    border: 3px solid gold;
+  }
+  
+  .pokemon img {
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }

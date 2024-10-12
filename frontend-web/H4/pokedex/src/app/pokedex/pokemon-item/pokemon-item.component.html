@@ -1,0 +1,21 @@
+<div class="pokemon" [ngClass]="{
+    fire: (pokemon.type == 'fire'), 
+    grass: (pokemon.type == 'grass'),
+    water: (pokemon.type == 'water'),
+    bug: (pokemon.type == 'bug'),
+    normal: (pokemon.type == 'normal'),
+    poison: (pokemon.type == 'poison'),
+    electric: (pokemon.type == 'electric'),
+    ground: (pokemon.type == 'ground'),
+    fairy: (pokemon.type == 'fairy'),
+    fighting: (pokemon.type == 'fighting'),
+    psychic: (pokemon.type == 'psychic'),
+    rock: (pokemon.type == 'rock'),
+    ghost: (pokemon.type == 'ghost'),
+    selected: isSelected
+    }">
+    <h3>{{pokemon.id + ". " + pokemon.name}}</h3>
+    <p>{{capitalize(pokemon.type)}}</p>
+    <img [src]="getIconSrc(pokemon)" alt="Pokemon Picture">
+
+</div>

@@ -1,0 +1,14 @@
+<h1>Pokedex</h1>
+
+<p>Geselecteerde Pokemon: {{selectedPokemon.name}}</p>
+
+<div class="pokemens">
+    @for (item of pokemons; track item.id){
+        <app-pokemon-item
+        [isSelected]="item === selectedPokemon"
+        (click)="onclick(item)"
+        [pokemon]="item"
+        >
+        </app-pokemon-item>
+    }
+</div>

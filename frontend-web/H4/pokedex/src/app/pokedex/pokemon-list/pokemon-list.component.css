@@ -1,0 +1,10 @@
+.pokemens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .pokemens app-pokemon-item {
+    flex: 1 1 calc(10% - 10px); /* Make each Pokémon take up 1/3 of the container */
+    margin: 5px; /* Add some spacing between items */
+  }
